@@ -1,0 +1,144 @@
+.first-slide {
+    background-color: #2E2F42;
+    padding: 72px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../../images/1x/people-office-mobile.jpg);
+    background-position: center;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.main-title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    margin: 0 auto;
+    max-width: 220px;
+}
+
+.order-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 48px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+    .first-slide {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../../images/1x/people-office-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 112px 0;
+        max-width: 1150px;
+    }
+
+    .main-title {
+        font-size: 56px;
+        line-height: 1.07;
+        margin: 0 auto;
+        max-width: 496px;
+    }
+
+    .order-button {
+        margin-top: 32px;
+    }
+
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1158px) {
+    .first-slide {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../../images/1x/people-office-desktop.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 188px 0;
+        margin: 0 auto;
+        max-width: 1440px;
+    }
+
+    .main-title {
+        font-size: 56px;
+        line-height: 1.07;
+        margin: 0 auto;
+        max-width: 496px;
+    }
+
+    .order-button {
+        margin-top: 48px;
+    }
+}
+
+/* .first-slide {
+    background-color: #2E2F42;
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 496px;
+    margin: 0 auto;
+}
+
+.order-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 48px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
+} */

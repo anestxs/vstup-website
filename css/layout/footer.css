@@ -1,0 +1,233 @@
+.ending {
+    background-color: #2E2F42;
+    padding: 96px 0;
+}
+
+.ending-logo {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-family: "Raleway", sans-serif;
+    color: #4D5AE5;
+    text-decoration: none;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.ending-logo-second-part {
+    color: #F4F4FD;
+}
+
+.ending-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    color: #F4F4FD;
+    max-width: 264px;
+    margin-bottom: 72px;
+}
+
+.second-part-of-ending {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.ending-social-media {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 72px;
+}
+
+.ending-social-media-item {
+    width: 40px;
+    height: 40px;
+}
+
+.ending-social-media-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.ending-social-media-link:hover,
+.ending-social-media-link:focus {
+    background-color: #31d0aa;
+}
+
+.social-media-icon {
+    fill: #f4f4fd;
+}
+
+
+.third-part-of-ending {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.ending-text-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.third-part-ending-input {
+    width: 288px;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 16px;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.third-part-ending-input::placeholder {
+    color: #FFFFFF;
+}
+
+.third-part-ending-btn {
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    border: none;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    margin: 0 auto;
+}
+
+.icon-of-sending-email {
+    margin-left: 16px;
+    fill: #fff;
+}
+
+.third-part-of-ending {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.third-part-ending-text { 
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    color: #F4F4FD;
+    max-width: 264px;
+}
+
+.ending-site-links { 
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404BBF;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+    .ending-logo {
+        text-align: left;
+    }
+
+    .second-part-of-ending {
+        text-align: left;
+    }
+
+    .third-part-ending-input {
+        min-width: 264px;
+    }
+
+    .third-part-of-ending {
+        text-align: left;
+    }
+
+    .ending-div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        justify-items: center;
+        width: 584px;
+    }
+
+    .ending-text-form {
+        flex-direction: row;
+    }
+
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1158px) {
+    .ending-div {
+        flex-wrap: nowrap;
+        column-gap: 0;
+        width: 1158px;
+    }
+
+    .first-part-of-ending {
+        margin-right: 120px;
+    }
+
+    .ending-social-media {
+        margin-right: 80px;
+        margin-bottom: 0;
+    }
+
+    .ending-text {
+        margin-bottom: 0;
+    }
+}
+
